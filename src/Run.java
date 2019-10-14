@@ -26,7 +26,7 @@ public class Run {
 		String b ="";
 		
 		//checking if the length of the palindrome is = 1, if so the word is a palindrome
-		if(a.length() == 1) {
+		if(a.length() <= 1) {
 			return true;
 			
 		//checking if the first letter is the same as the last letter in the word
@@ -67,7 +67,7 @@ public class Run {
 	
 	//Main method that we can use to test the methods for the assignment
 	public static void main(String[] args) {
-		/*
+		
 		//Part 1:	Testing the Greatest Common Divisor method
 		System.out.println("\nPart 1: Greatest Common Divisor Method");
 		System.out.println("==========================================\n");
@@ -83,8 +83,9 @@ public class Run {
 		System.out.println("It's "+palindrome("max")+" that max is a palindrome ");
 		System.out.println("It's "+palindrome("dad")+" that dad is a palindrome ");
 		System.out.println("It's "+palindrome("pizza")+" that pizza is a palindrome ");
+		System.out.println("It's "+palindrome("noon")+" that pizza is a palindrome ");
 		System.out.println("==========================================\n");
-		*/
+		
 		//Bonus Problem: Testing the stair climbing method
 		System.out.println("\nBonus: Stairs Method");
 		System.out.println("==========================================\n");
