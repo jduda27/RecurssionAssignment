@@ -83,7 +83,7 @@ public class Run {
 		System.out.println("It's "+palindrome("max")+" that max is a palindrome ");
 		System.out.println("It's "+palindrome("dad")+" that dad is a palindrome ");
 		System.out.println("It's "+palindrome("pizza")+" that pizza is a palindrome ");
-		System.out.println("It's "+palindrome("noon")+" that pizza is a palindrome ");
+		System.out.println("It's "+palindrome("noon")+" that noon is a palindrome ");
 		System.out.println("==========================================\n");
 		
 		//Bonus Problem: Testing the stair climbing method
