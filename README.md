@@ -27,7 +27,7 @@ The Greatest Common Denominator method that takes in two integers and returns th
 		}
 	}
 ```
-## Palindrome method
+## Palindrome Method
 The Palindrome Method takes in a word and checks to see if the word could be read both forward and backwards and 
 returns a boolean true or false.
 
