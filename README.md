@@ -45,3 +45,21 @@ returns a boolean true or false.
 		}
 	}
 ```
+## Stair Clibming Method
+This method takes in a integer for the amount of steps you are wanting to climb and returns 
+the total distinct ways you are able to climb the stairs.
+```Java
+	public static int stairs(int n) {
+		//testing to see if the amount of steps climbed is less than or equal to 2
+		if (n <= 2 ){
+			//if so the result is n;
+			return n;
+		}else {
+			/*if the amount of stair is greater than 2 then we can 
+			 * figure out the combinations of the 2 numbers of stairs below our
+			 * value n is and add them together and return them for the answer.
+			 */
+			return stairs(n-1)+stairs(n-2);
+		}
+	}
+```
