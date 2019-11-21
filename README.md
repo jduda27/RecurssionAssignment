@@ -2,6 +2,7 @@
 
 ## GCD Method
 The Greatest Common Denominator method that takes in two integers and returns the GCD.
+
 **Precondtions** : a valid integer *a* to be compaired to another valid integer *b*
 
 **Postconditions** : Either call gcd where *a=b* and *b=r* or return the resulting GCD (the *a* integer)
