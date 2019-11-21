@@ -2,6 +2,12 @@
 
 ## GCD Method
 The Greatest Common Denominator method that takes in two integers and returns the GCD.
+**Precondtions** : a valid integer *a* to be compaired to another valid integer *b*
+
+**Postconditions** : Either call gcd where *a=b* and *b=r* or return the resulting GCD (the *a* integer)
+
+
+
 ```Java
 	public static int gcd(int a, int b) {
 		
@@ -23,12 +29,18 @@ The Greatest Common Denominator method that takes in two integers and returns th
 ## Palindrome method
 The Palindrome Method takes in a word and checks to see if the word could be read both forward and backwards and 
 returns a boolean true or false.
+
+**Precondtion** : a valid String object *a* representing a word to be tested.
+
+**Postconditions** :  if palindrome is <=  1 return *true*, if first char and last char are equal run palindrome again with 
+String *a=b*, a string with the front and back characters removed, and if neither of the conditions prior are not true return *false*.
+
 ```Java
 	public static Boolean palindrome(String a){
 		//declaring a string b
 		String b ="";
 		
-		//checking if the length of the palindrome is = 1, if so the word is a palindrome
+		//checking if the length of the palindrome is <= 1, if so the word is a palindrome
 		if(a.length() <= 1) {
 			return true;
 			
